@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: #326c5d;
+}
+.inputbox{
+    font-size: 100px;
+    
+}
+input:focus{
+    outline: none;
+}
+/* function myfun(){
+    //     arr.forEach( function(input){
+         
+    //     }) 
+    // } */
+
+    @media screen and (max-width:500px) {
+        
+        .container{
+            transform: scale(0.8);
+        }
+        
+    }
